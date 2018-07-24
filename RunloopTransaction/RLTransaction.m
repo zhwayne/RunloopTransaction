@@ -9,7 +9,6 @@
 #import "RLTransaction.h"
 #import "CoreGraphics/CGGeometry.h"
 
-#define RL_BOXABLE __attribute__((objc_boxable))
 
 struct RLTransactionDescription {
     CFRunLoopRef runloop;
