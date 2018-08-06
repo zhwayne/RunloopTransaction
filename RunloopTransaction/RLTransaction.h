@@ -11,7 +11,7 @@
 #ifndef __RLTransaction_h
 #define __RLTransaction_h
 
-extern
+OBJC_EXTERN
 void RLTransactionCommit(void (^action)(void));
 
 

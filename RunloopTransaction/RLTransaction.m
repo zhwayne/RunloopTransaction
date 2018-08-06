@@ -94,7 +94,6 @@ void __RLTransactionSetup()
     });
 }
 
-extern
 void RLTransactionCommit(void (^action)(void))
 {
     __RLTransactionSetup();
